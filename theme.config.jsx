@@ -6,7 +6,7 @@ export default {
   },
   docsRepositoryBase: "https://github.com/ch-shubham/Linux.sh",
   footer: {
-    text: "https://github.com/ch-shubham/Linux.sh",
+    content: "Linux.sh is a project by Shubham Chaudhary",
   },
   head: (
     <>
@@ -19,5 +19,8 @@ export default {
       />
     </>
   ),
-  
+  banner:{
+    dismissible: false,
+    content: "This is under development. This will be made open source soon. Stay tuned! 🚀",
+  }
 }
